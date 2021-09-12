@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tuyendq/vanillajs/issues"
   },
-  "homepage": "https://github.com/tuyendq/vanillajs#readme"
+  "homepage": "https://github.com/tuyendq/vanillajs#readme",
+  "devDependencies": {
+    "surge": "^0.23.0"
+  }
 }
