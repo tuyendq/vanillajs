@@ -21,5 +21,7 @@ jobs:
         node-version: 12.x
     - name: Setup environment
       run: npm install
+    - name: Install surge.sh
+      run: npm install -g surge      
     - name: Deploy to surge.sh
       run: surge ./src ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN}}
